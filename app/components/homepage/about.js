@@ -90,7 +90,7 @@ export default function About() {
         <div className="rounded-md border border-gray-100 p-2 focus-within:ring sm:flex sm:items-center sm:gap-4 mt-2">
           <FaSearch></FaSearch>
           <input
-            placeholder="john@rhcp.com"
+            placeholder="Search here"
             className="w-full border-none focus:border-transparent focus:ring-transparent sm:text-sm outline-none"
           />
         </div>

@@ -9,7 +9,7 @@ export default function Inbox() {
   const messages = [
     {
       name: "John Doe",
-      message: "Hello, how are you?",
+      message: "Hello, how are you? dsad sa dasewq e qwe qw das sa dew ...",
       readReciepts: "read",
       profilePicture: "https://randomuser.me/api/portraits/women/60.jpg",
       socialmediaLink:
@@ -21,7 +21,7 @@ export default function Inbox() {
       readReciepts: "unread",
       profilePicture: "https://randomuser.me/api/portraits/women/60.jpg",
       socialmediaLink:
-        "https://about.x.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png",
+        "https://upload.wikimedia.org/wikipedia/commons/b/be/Facebook_Messenger_logo_2020.svg",
     },
   ];
   return (
@@ -70,7 +70,7 @@ export default function Inbox() {
             <div className="flex items-center justify-center">
               <IoPeople className="m-2"></IoPeople>
               All
-              <span className="bg-green-200 rounded-full text-xs font-medium text-green-900 pt-0 px-1 mx-1">
+              <span className="bg-green-200 rounded-full text-xs font-medium text-green-900 pt-0 px-1 mx-2  ">
                 238
               </span>
               <span className="transition group-open:-rotate-180">
@@ -135,12 +135,12 @@ export default function Inbox() {
                     <div className="mx-2">{message.name}</div>
                     <img
                       src={message.socialmediaLink}
-                      className="h-4 w-4 rounded-full mx-2"
+                      className="h-4  rounded-full mx-2"
                     ></img>
                   </div>
                 </div>
                 <div className="flex flex-row justify-between">
-                  <div className="text-slate-600 font-semibold text-sm">
+                  <div className="text-slate-600 font-semibold text-sm pr-1">
                     {message.message}
                   </div>
                   <IoCheckmarkDoneOutline> </IoCheckmarkDoneOutline>
